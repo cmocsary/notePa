@@ -5,30 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Note Pad</title>
+    <title>NotePa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/index.css">
 </head>
 
 <body>
-    <header></header>
-    <main class="container">
-        <div class="row">
-            <div class="col col-lg-6">
-                <section >
-                    <form action="">
-                        <textarea class="boxsizingBorder" name="" id="" cols="30" rows="10"></textarea>
-                        <button type="submit">Guardar</button>
+    <main class="big-container">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-content-center">
+                <section class="p-4 text-center col-sm-12 col-md-5 col-lg-6 boxLogin">
+                    <form class="row h-100 align-content-center">
+                        <div>
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputPassword" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
                     </form>
                 </section>
-                <section class="noteBox">
-                    
-                </section>
-            </div>
-            <div class="col col-lg-6">
-                <section class="boardBox">
-
+                <section class="col-sm-12 col-md-7 col-lg-6">
+                    <img class="boxImgIndex"
+                        src="/img/sleepy-african-american-woman-winks-eye-holds-disposable-cup-of-coffee-works-for-long-hours-tries-to-be-fresh-has-natural-curly-hair-stick-head-through-paper-background-sticky-notes-around.jpg"
+                        alt="">
                 </section>
             </div>
         </div>

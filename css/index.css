@@ -1,16 +1,15 @@
-.boardBox {
-    width: 100%;
-    height: 200%;
-    background-color: blue;
-}
-.noteBox {
+.big-container {
+    background: #c34bfa;
+    width: 100vw;
+    height: 100vh;
+    padding: 5% 15%;
+  }
+.boxImgIndex {
     width: 100%;
     height: 100%;
-    background-color: blue;
+    border-radius: 5%;
 }
-.boxsizingBorder {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            width: 100%;
+.boxLogin {
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 5%;
 }
