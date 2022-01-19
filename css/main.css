@@ -1,16 +1,21 @@
+.big-container {
+    background-image: url("../img/texture-background.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 5% 15%;
+  }
 .boardBox {
     width: 100%;
-    height: 200%;
-    background-color: blue;
-}
-.noteBox {
-    width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color: cornsilk;
 }
 .boxsizingBorder {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
             width: 100%;
+}
+.btnDelete {
+    border-radius: 25%;
 }

@@ -3,16 +3,15 @@
         {
             "id":1,
             "email":"carlos.mocsary@gmail.com",
-            "pass":"1234"
+            "pass":"1234",
+            "notes":["Hola mundo", "feliz año nuevo", "Cosmi debe comer"]
         },
         {
             "id":2,
             "email":"maflorencia.norry@gmail.com",
-            "pass":"5678"
+            "pass":"5678",
+            "notes":[]
         }
-    ],
-    
-    "notes":[
-
     ]
+       
 }
